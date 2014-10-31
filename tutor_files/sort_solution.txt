@@ -1,0 +1,15 @@
+Pass 1
+Compare 97 and 84
+Swap
+Compare 97 and 70
+Swap
+Compare 97 and 9
+Swap
+Pass 2
+Compare 84 and 70
+Swap
+Compare 84 and 9
+Swap
+Pass 3
+Compare 70 and 9
+Swap

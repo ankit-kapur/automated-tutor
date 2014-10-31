@@ -1,0 +1,6 @@
+Pass 1
+Compare 22.31 and 25.82
+Compare 25.82 and 78.65
+Compare 78.65 and 72.65
+Swap
+Compare 78.65 and 84.97
