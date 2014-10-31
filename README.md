@@ -1,4 +1,4 @@
-auto-tutor
+automated-tutor
 ==========
 
-Automatic tutor that helps you understand sorting mechanisms
+An automated tutor that is targeted at helping students understand sorting mechanisms (for instance) in an interactive manner.
