@@ -45,9 +45,9 @@ public class Controller {
     public void loadConfiguration() {
         Properties prop = new Properties();
         FileInputStream in = null;
-        problemSetLength = new ArrayList<>();
-        problemSetDataType = new ArrayList<>();
-        problemSetSortingLevel = new ArrayList<>();
+        problemSetLength = new ArrayList<Integer>();
+        problemSetDataType = new ArrayList<Integer>();
+        problemSetSortingLevel = new ArrayList<Integer>();
         
         try {
             in = new FileInputStream(configurationFilePath);

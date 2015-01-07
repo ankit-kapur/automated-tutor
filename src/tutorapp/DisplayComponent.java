@@ -612,7 +612,7 @@ class UserListArrangement {
     }
 
     public UserListArrangement(Map<Integer, Object> problemSet) {
-        this.userSet = new LinkedHashMap<>(problemSet);
+        this.userSet = new LinkedHashMap<Integer, Object>(problemSet);
         resetPointers();
     }
 

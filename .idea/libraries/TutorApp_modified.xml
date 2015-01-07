@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TutorApp_modified">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/TutorApp_modified.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

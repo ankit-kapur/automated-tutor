@@ -9,7 +9,7 @@ public class SortingComponent {
     Map<Integer, Map<Integer, Object>> solutionSet;
 
     public SortingComponent() {
-        solutionSet = new HashMap<>();
+        solutionSet = new HashMap<Integer, Map<Integer, Object>>();
     }
 
     public Map<Integer, Object> getFullySortedSolution() {
@@ -26,7 +26,7 @@ public class SortingComponent {
 
     public void performBubbleSort(Map<Integer, Object> problemList, IOComponent ioComponent) throws Exception {
 
-        Map<Integer, Object> sortedList = new HashMap<>(problemList);
+        Map<Integer, Object> sortedList = new HashMap<Integer, Object>(problemList);
         int flag = 0;
 
         for (int i = 0; i < sortedList.size() - 1; i++) {
@@ -51,7 +51,7 @@ public class SortingComponent {
             }
 
             /* Store the snapshot of this pass in the solution set */
-            solutionSet.put(i, new HashMap<>(sortedList));
+            solutionSet.put(i, new HashMap<Integer, Object>(sortedList));
 
             if (flag == 0) {
                 break;

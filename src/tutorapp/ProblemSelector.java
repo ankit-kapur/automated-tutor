@@ -34,7 +34,7 @@ public class ProblemSelector {
 
     /* Generate randomized list */
     public Map<Integer, Object> generateRandomizedList() {
-        Map<Integer, Object> randomizedList = new HashMap<>();
+        Map<Integer, Object> randomizedList = new HashMap<Integer, Object>();
 
         for (int i = 0; i < lengthOfList; i++) {
             switch (typeOfList) {
@@ -83,7 +83,7 @@ public class ProblemSelector {
 
     public String generateRandomWord() {
         String generatedWord = null, currentWord;
-        List<String> wordList = new ArrayList<>();
+        List<String> wordList = new ArrayList<String>();
         BufferedReader fileReader;
         File wordListFile = new File(wordListFilePath);
         try {
